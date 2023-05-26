@@ -1,3 +1,5 @@
+// TODO: Add constraint to download button to wait until all files have been read before enabling it
+
 // Declaring a varible for the file input
 const fileInput = document.querySelector("#file");
 
@@ -6,7 +8,7 @@ fileInput.addEventListener("change", handleFileSelection);
 fileInput.addEventListener("click", restart);
 
 function restart() {
-  together = ["name, latitude, longitude"];
+  together = ["name, latitude, longitude, timestamp"];
   downloadButton.disabled = true
   document.querySelector("#result").innerHTML = "";
 }
@@ -17,6 +19,7 @@ function handleFileSelection(event) {
     // Once a file has been uploaded (fileInput changed), the download button can the enabled
     download.disabled = false;
     
+    // This for loop will consider multiple files being uploaded
     for (let i=0; i<fileInput.files.length; i++)
     {
   // Selecting the first file uploaded
@@ -38,7 +41,7 @@ function handleFileSelection(event) {
 let result = "";
 
 // The together array is initialized with the first row of the .csv file. In this array, all coordinate points will be united to form the final result.
-let together = ["name, latitude, longitude"];
+let together = ["name, latitude, longitude, timestamp"];
 
 // The transform function is responsible for extracting location name (when available), latitude and longitude from the JSON exported from Google TakeOut (takeout.google.com). Once you downloaded the Location History, you can select the files for each month of the year and the function will return rows and columns like a .csv file
 function transform(str) {
@@ -53,56 +56,57 @@ function transform(str) {
   // Within these objetcs, they differ in those who have or not the waypointPath property. It's necessary separate them so that the coordinate points can be extracted. It's worth noting that there is no name for the coordinates in these objects.
   const actWaypath = act
     .filter((e) => e.hasOwnProperty("waypointPath"))
-    .map((e) => e.waypointPath.waypoints);
-  const actRaw = act
-    .filter((e) => !e.hasOwnProperty("waypointPath"))
-    .filter((e) => e.hasOwnProperty("simplifiedRawPath"))
-    .map((e) => e.simplifiedRawPath.points);
-
-  // Once the objects have been mapped to follow the same structure, they can be reunited in the same array once again
-  let activity = actRaw.concat(actWaypath);
-
-  // These couple loops present in this code are responsible for dividing every coordinate point on the activity array by 10^7.
-  for (let i = 0; i < activity.length; i++) {
-    for (let j = 0; j < activity[i].length; j++) {
-      activity[i][j].latE7 = activity[i][j].latE7 / 1e7;
-      activity[i][j].lngE7 = activity[i][j].lngE7 / 1e7;
+    for (let i = 0; i < actWaypath.length; i++) {
+      for (let j = 0; j < actWaypath[i].waypointPath.waypoints.length; j++) {
+        together.push(
+          "activity" +
+            ", " +
+            actWaypath[i].waypointPath.waypoints[j].latE7 / 1e7 +
+            ", " +
+            actWaypath[i].waypointPath.waypoints[j].lngE7 / 1e7 +
+            ", " +
+            actWaypath[i].duration.startTimestamp
+        );
+      }
     }
-  }
-
-  //act consists in an array of all placeVisited objects
-  let visited = obj.timelineObjects
-    .filter((e) => e.hasOwnProperty("placeVisit"))
-    .map((e) => e.placeVisit.location);
-
-  for (let i = 0; i < visited.length; i++) {
-    visited[i].latitudeE7 = visited[i].latitudeE7 / 1e7;
-    visited[i].longitudeE7 = visited[i].longitudeE7 / 1e7;
-  }
-
-  // These next two loops will push into the together array the name, latitude and longitude of all recorded points on the JSON file and will represent each data line on the csv file.
-  for (let i = 0; i < visited.length; i++) {
-    together.push(
-      visited[i].name +
-        ", " +
-        visited[i].latitudeE7 +
-        ", " +
-        visited[i].longitudeE7
-    );
-  }
-
-  for (let i = 0; i < activity.length; i++) {
-    for (let j = 0; j < activity[i].length; j++) {
+  
+    const actRaw = act
+      .filter((e) => !e.hasOwnProperty("waypointPath"))
+      .filter((e) => e.hasOwnProperty("simplifiedRawPath"))
+      .map((e) => e.simplifiedRawPath.points);
+  
+    for (let i = 0; i < actRaw.length; i++) {
+      for (let j = 0; j < actRaw[i].length; j++) {
+        together.push(
+          "activity" +
+            ", " +
+            actRaw[i][j].latE7 / 1e7 +
+            ", " +
+            actRaw[i][j].lngE7 / 1e7 +
+            ", " +
+            actRaw[i][j].timestamp
+        );
+      }
+    }
+  
+    let visited = obj.timelineObjects
+      .filter((e) => e.hasOwnProperty("placeVisit"))
+      .map((e) => e.placeVisit);
+  
+    for (let i = 0; i < visited.length; i++) {
       together.push(
-        "activity" + ", " + activity[i][j].latE7 + ", " + activity[i][j].lngE7
+        visited[i].location.name +
+          ", " +
+          visited[i].location.latitudeE7 / 1e7 +
+          ", " +
+          visited[i].location.longitudeE7 / 1e7 +
+          ", " +
+          visited[i].duration.startTimestamp
       );
     }
-  }
 
   // Joining all rows with a return after every row
   result = together.join("\n");
-
-  console.log(document.querySelector('#file').files[0].name, together.length)
 
   //Printing the together on the webpage with a HTML break row joining the rows
   document.querySelector("#result").innerHTML = together.join("<br>");

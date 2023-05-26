@@ -29,7 +29,7 @@ function handleFileSelection(event) {
 
 let result = "";
 
-let together = ["name, latitude, longitude, timestamp"];
+let together = [];
 
 function transform(str) {
   let obj = JSON.parse(str);
@@ -38,66 +38,57 @@ function transform(str) {
     .filter((e) => e.hasOwnProperty("activitySegment"))
     .map((e) => e.activitySegment);
 
-  const actWaypath = act
-    .filter((e) => e.hasOwnProperty("waypointPath"))
-    // .map((e) => e.waypointPath.waypoints);
+  const actWaypath = act.filter((e) => e.hasOwnProperty("waypointPath"));
+  // .map((e) => e.waypointPath.waypoints);
 
-    for (let i = 0; i < actWaypath.length; i++) {
-      for (let j = 0; j < actWaypath[i].waypointPath.waypoints.length; j++) {
-       
-        together.push(
-          "activity" +
-            ", " +
-            actWaypath[i].waypointPath.waypoints[j].latE7/1e7 +
-            ", " +
-            actWaypath[i].waypointPath.waypoints[j].lngE7/1e7 
-            +
-            ", " +
-            actWaypath[i].duration.startTimestamp
-        );
-      }
+  for (let i = 0; i < actWaypath.length; i++) {
+    for (let j = 0; j < actWaypath[i].waypointPath.waypoints.length; j++) {
+      together.push(
+        "activity" +
+          ", " +
+          actWaypath[i].waypointPath.waypoints[j].latE7 / 1e7 +
+          ", " +
+          actWaypath[i].waypointPath.waypoints[j].lngE7 / 1e7 +
+          ", " +
+          actWaypath[i].duration.startTimestamp
+      );
     }
-    
-    const actRaw = act
+  }
+
+  const actRaw = act
     .filter((e) => !e.hasOwnProperty("waypointPath"))
     .filter((e) => e.hasOwnProperty("simplifiedRawPath"))
     .map((e) => e.simplifiedRawPath.points);
-    
-    for (let i = 0; i < actRaw.length; i++) {
-      for (let j = 0; j < actRaw[i].length; j++) {
-        together.push(
-          "activity" +
-            ", " +
-            actRaw[i][j].latE7/1e7 +
-            ", " +
-            actRaw[i][j].lngE7/1e7 
-            +
-            ", " +
-            actRaw[i][j].timestamp
-        );
-      }
+
+  for (let i = 0; i < actRaw.length; i++) {
+    for (let j = 0; j < actRaw[i].length; j++) {
+      together.push(
+        "activity" +
+          ", " +
+          actRaw[i][j].latE7 / 1e7 +
+          ", " +
+          actRaw[i][j].lngE7 / 1e7 +
+          ", " +
+          actRaw[i][j].timestamp
+      );
     }
-  
+  }
 
   let visited = obj.timelineObjects
     .filter((e) => e.hasOwnProperty("placeVisit"))
-    // .map((e) => e.placeVisit.location);
-
-console.log(visited[0])
+    .map((e) => e.placeVisit);
 
   for (let i = 0; i < visited.length; i++) {
     together.push(
-      visited[i].placeVisit.location.name +
+      visited[i].location.name +
         ", " +
-        visited[i].placeVisit.location.latitudeE7 / 1e7 +
+        visited[i].location.latitudeE7 / 1e7 +
         ", " +
-        visited[i].placeVisit.location.longitudeE7 / 1e7+
+        visited[i].location.longitudeE7 / 1e7 +
         ", " +
-        visited[i].placeVisit.duration.startTimestamp
+        visited[i].duration.startTimestamp
     );
   }
-
-  console.log(together.length)
 
   result = together.join("\n");
 
