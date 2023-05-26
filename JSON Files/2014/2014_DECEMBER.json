@@ -1,0 +1,1447 @@
+{
+  "timelineObjects": [{
+    "placeVisit": {
+      "location": {
+        "latitudeE7": -58454558,
+        "longitudeE7": -352041163,
+        "placeId": "ChIJm30eAXr_sgcR3c5JI6n5Zzg",
+        "address": "Av. Miguel Alcídes de Araújo, 1841 - Capim Macio, Natal - RN, 59078-270, Brasil",
+        "locationConfidence": 91.40489
+      },
+      "duration": {
+        "startTimestamp": "2014-12-24T21:30:54.485Z",
+        "endTimestamp": "2014-12-25T07:29:36.658Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": -58454641,
+      "centerLngE7": -352041170,
+      "visitConfidence": 88,
+      "otherCandidateLocations": [{
+        "latitudeE7": -58452529,
+        "longitudeE7": -352040404,
+        "placeId": "ChIJCaXVAXr_sgcR4mrj30eeulw",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 2.9469583
+      }, {
+        "latitudeE7": -58452454,
+        "longitudeE7": -352040521,
+        "placeId": "ChIJv65DAHr_sgcRYOw1tPZsukw",
+        "address": "Av. Miguel Alcídes de Araújo, 1837 - Capim Macio, Natal - RN, 59078-270, Brasil",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 2.0596797
+      }, {
+        "latitudeE7": -58457500,
+        "longitudeE7": -352037640,
+        "placeId": "ChIJQ8sQqHD_sgcRaUT_C50nvwk",
+        "address": "R. Eng. Nelson Bahia, 1836 - Capim Macio, Natal - RN, 59078-280, Brasil",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 1.5839769
+      }, {
+        "latitudeE7": -58457950,
+        "longitudeE7": -352045830,
+        "placeId": "ChIJR6wCEHr_sgcRj48RoyeOYD4",
+        "address": "Av. Miguel Alcídes de Araújo, 1849 - Capim Macio, Natal - RN, 59078-270, Brasil",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 1.1119949
+      }, {
+        "latitudeE7": -58445100,
+        "longitudeE7": -352034779,
+        "placeId": "ChIJQT4LXHf_sgcRQMP_eL_hz8M",
+        "address": "Av. Miguel Alcídes de Araújo, 1814 - Capim Macio, Natal - RN, 59078-270, Brasil",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.46996912
+      }, {
+        "latitudeE7": -58455184,
+        "longitudeE7": -352042397,
+        "placeId": "ChIJYUdPG3v_sgcRqBOrP10NfzA",
+        "locationConfidence": 0.16474357
+      }, {
+        "latitudeE7": -58452045,
+        "longitudeE7": -352062084,
+        "placeId": "ChIJSQKbKXr_sgcR8ACbF-WTiq0",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.10482667
+      }, {
+        "latitudeE7": -58434260,
+        "longitudeE7": -352048400,
+        "placeId": "ChIJLTI4z3n_sgcRFQ7vQwMMoeI",
+        "address": "R. das Orquídeas, 766 - Capim Macio, Natal - RN, 59078-170, Brasil",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.1040829
+      }, {
+        "latitudeE7": -58464754,
+        "longitudeE7": -352074791,
+        "placeId": "ChIJYWc4unv_sgcRmEUO670c5AA",
+        "locationConfidence": 0.009753816
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 81,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": -58454558,
+        "longitudeE7": -352041163,
+        "placeId": "ChIJm30eAXr_sgcR3c5JI6n5Zzg",
+        "address": "Av. Miguel Alcídes de Araújo, 1841 - Capim Macio, Natal - RN, 59078-270, Brasil",
+        "locationConfidence": 88.81882
+      },
+      "duration": {
+        "startTimestamp": "2014-12-25T16:56:45.821Z",
+        "endTimestamp": "2014-12-25T22:40:38.514Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": -58454674,
+      "centerLngE7": -352041265,
+      "visitConfidence": 84,
+      "otherCandidateLocations": [{
+        "latitudeE7": -58452529,
+        "longitudeE7": -352040404,
+        "placeId": "ChIJCaXVAXr_sgcR4mrj30eeulw",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 3.8316908
+      }, {
+        "latitudeE7": -58452454,
+        "longitudeE7": -352040521,
+        "placeId": "ChIJv65DAHr_sgcRYOw1tPZsukw",
+        "address": "Av. Miguel Alcídes de Araújo, 1837 - Capim Macio, Natal - RN, 59078-270, Brasil",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 2.6815073
+      }, {
+        "latitudeE7": -58457500,
+        "longitudeE7": -352037640,
+        "placeId": "ChIJQ8sQqHD_sgcRaUT_C50nvwk",
+        "address": "R. Eng. Nelson Bahia, 1836 - Capim Macio, Natal - RN, 59078-280, Brasil",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 2.0821173
+      }, {
+        "latitudeE7": -58457950,
+        "longitudeE7": -352045830,
+        "placeId": "ChIJR6wCEHr_sgcRj48RoyeOYD4",
+        "address": "Av. Miguel Alcídes de Araújo, 1849 - Capim Macio, Natal - RN, 59078-270, Brasil",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 1.4983455
+      }, {
+        "latitudeE7": -58445100,
+        "longitudeE7": -352034779,
+        "placeId": "ChIJQT4LXHf_sgcRQMP_eL_hz8M",
+        "address": "Av. Miguel Alcídes de Araújo, 1814 - Capim Macio, Natal - RN, 59078-270, Brasil",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.611756
+      }, {
+        "latitudeE7": -58455184,
+        "longitudeE7": -352042397,
+        "placeId": "ChIJYUdPG3v_sgcRqBOrP10NfzA",
+        "locationConfidence": 0.14258718
+      }, {
+        "latitudeE7": -58452045,
+        "longitudeE7": -352062084,
+        "placeId": "ChIJSQKbKXr_sgcR8ACbF-WTiq0",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.14052226
+      }, {
+        "latitudeE7": -58434260,
+        "longitudeE7": -352048400,
+        "placeId": "ChIJLTI4z3n_sgcRFQ7vQwMMoeI",
+        "address": "R. das Orquídeas, 766 - Capim Macio, Natal - RN, 59078-170, Brasil",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.13733476
+      }, {
+        "latitudeE7": -58464754,
+        "longitudeE7": -352074791,
+        "placeId": "ChIJYWc4unv_sgcRmEUO670c5AA",
+        "locationConfidence": 0.009756235
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 79,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": -58693931,
+        "longitudeE7": -352066038,
+        "placeId": "ChIJ90t70ln_sgcRgEVKLO_GmpI",
+        "address": "Natal, Rio Grande do Norte, Brasil",
+        "name": "Neópolis",
+        "locationConfidence": 100.0
+      },
+      "duration": {
+        "startTimestamp": "2014-12-26T02:26:32.650Z",
+        "endTimestamp": "2014-12-27T00:44:29.669Z"
+      },
+      "placeConfidence": "USER_CONFIRMED",
+      "visitConfidence": 100,
+      "otherCandidateLocations": [{
+        "latitudeE7": -58551129,
+        "longitudeE7": -352088579,
+        "placeId": "ChIJ07JMLWH_sgcRADnysbwBR2Q",
+        "address": "Rua Walter Duarte Pereira, 1668 - Capim Macio, Natal - RN, 59082-470, Brasil",
+        "name": "MM Informática",
+        "locationConfidence": 40.316402
+      }, {
+        "latitudeE7": -58551535,
+        "longitudeE7": -352086587,
+        "placeId": "ChIJ49w8dF3_sgcRyzFiK6TrU4o",
+        "locationConfidence": 39.86105
+      }, {
+        "latitudeE7": -58547719,
+        "longitudeE7": -352081587,
+        "placeId": "ChIJfYxVvmb_sgcRLMnq9Zd2ERM",
+        "address": "Av. dos Ipês, 225 - Neópolis, Natal - RN, 59080-115, Brasil",
+        "name": "Igreja Batista em Neópolis",
+        "locationConfidence": 5.7194915
+      }, {
+        "latitudeE7": -58545587,
+        "longitudeE7": -352078020,
+        "placeId": "ChIJEa1y3vP_sgcR0AV4yzBQSzk",
+        "address": "Av. dos Ipês, 115 - Capim Macio, Natal - RN, 59080-100, Brasil",
+        "name": "Gilson Buffet Recepções Shows \u0026 Eventos",
+        "locationConfidence": 3.5413132
+      }, {
+        "latitudeE7": -58553502,
+        "longitudeE7": -352100999,
+        "placeId": "ChIJKyRjMGH_sgcRLFlsujPAKBs",
+        "address": "R. Roraima - Neópolis, Natal - RN, 59080-140, Brasil",
+        "name": "Escola Estadual Ferreira Itajubá",
+        "locationConfidence": 1.1784338
+      }, {
+        "latitudeE7": -58574789,
+        "longitudeE7": -352096761,
+        "placeId": "ChIJraA3pWD_sgcR6bMvlxdghc4",
+        "address": "R. Rondônia, 425 - Neópolis, Natal - RN, 59080-410, Brasil",
+        "name": "Paróquia de Nossa Senhora Aparecida",
+        "locationConfidence": 0.7380678
+      }, {
+        "latitudeE7": -58554069,
+        "longitudeE7": -352077306,
+        "placeId": "ChIJFfj55Wb_sgcRRswrVOXBQho",
+        "locationConfidence": 0.72339755
+      }, {
+        "latitudeE7": -58209590,
+        "longitudeE7": -352174400,
+        "placeId": "ChIJw89EyWb_sgcRX-LjNjMsj40",
+        "address": "R. José Ribeiro Dantas, 2474 - Lagoa Nova, Natal - RN, 59062-480, Brasil",
+        "name": "Salão Cosmos",
+        "locationConfidence": 0.6570355
+      }, {
+        "latitudeE7": -58545535,
+        "longitudeE7": -352088428,
+        "placeId": "ChIJvcjYtmb_sgcRh_sVU7mBYAw",
+        "address": "Av. dos Ipês, 205 - Neópolis, Natal - RN, 59080-200, Brasil",
+        "name": "Núcleo Espírita Irmãos Fraternos - NEIF",
+        "locationConfidence": 0.54781747
+      }, {
+        "latitudeE7": -58545089,
+        "longitudeE7": -352083641,
+        "placeId": "ChIJJzh2uWb_sgcR-zBxVZzGu68",
+        "address": "Av. dos Ipês, 220 - Neópolis, Natal - RN, 59080-200, Brasil",
+        "name": "Super Show Supermarkets - Maia",
+        "locationConfidence": 0.53519255
+      }],
+      "editConfirmationStatus": "CONFIRMED",
+      "locationConfidence": 100,
+      "placeVisitType": "SINGLE_PLACE",
+      "locationAssertionType": "AREA",
+      "lastEditedTimestamp": "2016-09-06T22:49:50.782Z",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": -58549662,
+        "longitudeE7": -352090601
+      },
+      "endLocation": {
+        "latitudeE7": -58454558,
+        "longitudeE7": -352041163,
+        "placeId": "ChIJm30eAXr_sgcR3c5JI6n5Zzg",
+        "address": "Av. Miguel Alcídes de Araújo, 1841 - Capim Macio, Natal - RN, 59078-270, Brasil",
+        "locationConfidence": 91.26807
+      },
+      "duration": {
+        "startTimestamp": "2014-12-27T00:44:29.669Z",
+        "endTimestamp": "2014-12-27T00:57:33.236Z"
+      },
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 0.0
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": -58550195,
+          "lngE7": -352090759
+        }, {
+          "latE7": -58453216,
+          "lngE7": -352041816
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 1556.0942095127655,
+        "travelMode": "WALK",
+        "confidence": 0.0
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": -58454558,
+        "longitudeE7": -352041163,
+        "placeId": "ChIJm30eAXr_sgcR3c5JI6n5Zzg",
+        "address": "Av. Miguel Alcídes de Araújo, 1841 - Capim Macio, Natal - RN, 59078-270, Brasil",
+        "locationConfidence": 91.26807
+      },
+      "duration": {
+        "startTimestamp": "2014-12-27T00:57:33.236Z",
+        "endTimestamp": "2014-12-27T16:59:24.201Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": -58454691,
+      "centerLngE7": -352041152,
+      "visitConfidence": 87,
+      "otherCandidateLocations": [{
+        "latitudeE7": -58452529,
+        "longitudeE7": -352040404,
+        "placeId": "ChIJCaXVAXr_sgcR4mrj30eeulw",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 2.9853294
+      }, {
+        "latitudeE7": -58452454,
+        "longitudeE7": -352040521,
+        "placeId": "ChIJv65DAHr_sgcRYOw1tPZsukw",
+        "address": "Av. Miguel Alcídes de Araújo, 1837 - Capim Macio, Natal - RN, 59078-270, Brasil",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 2.085361
+      }, {
+        "latitudeE7": -58457500,
+        "longitudeE7": -352037640,
+        "placeId": "ChIJQ8sQqHD_sgcRaUT_C50nvwk",
+        "address": "R. Eng. Nelson Bahia, 1836 - Capim Macio, Natal - RN, 59078-280, Brasil",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 1.6374998
+      }, {
+        "latitudeE7": -58457950,
+        "longitudeE7": -352045830,
+        "placeId": "ChIJR6wCEHr_sgcRj48RoyeOYD4",
+        "address": "Av. Miguel Alcídes de Araújo, 1849 - Capim Macio, Natal - RN, 59078-270, Brasil",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 1.1417432
+      }, {
+        "latitudeE7": -58445100,
+        "longitudeE7": -352034779,
+        "placeId": "ChIJQT4LXHf_sgcRQMP_eL_hz8M",
+        "address": "Av. Miguel Alcídes de Araújo, 1814 - Capim Macio, Natal - RN, 59078-270, Brasil",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.4774176
+      }, {
+        "latitudeE7": -58455184,
+        "longitudeE7": -352042397,
+        "placeId": "ChIJYUdPG3v_sgcRqBOrP10NfzA",
+        "locationConfidence": 0.14358698
+      }, {
+        "latitudeE7": -58452045,
+        "longitudeE7": -352062084,
+        "placeId": "ChIJSQKbKXr_sgcR8ACbF-WTiq0",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.106550574
+      }, {
+        "latitudeE7": -58434260,
+        "longitudeE7": -352048400,
+        "placeId": "ChIJLTI4z3n_sgcRFQ7vQwMMoeI",
+        "address": "R. das Orquídeas, 766 - Capim Macio, Natal - RN, 59078-170, Brasil",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.10523802
+      }, {
+        "latitudeE7": -58464754,
+        "longitudeE7": -352074791,
+        "placeId": "ChIJYWc4unv_sgcRmEUO670c5AA",
+        "locationConfidence": 0.009957747
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 81,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": -58454558,
+        "longitudeE7": -352041163,
+        "placeId": "ChIJm30eAXr_sgcR3c5JI6n5Zzg",
+        "address": "Av. Miguel Alcídes de Araújo, 1841 - Capim Macio, Natal - RN, 59078-270, Brasil",
+        "locationConfidence": 87.80835
+      },
+      "duration": {
+        "startTimestamp": "2014-12-28T02:49:39.198Z",
+        "endTimestamp": "2014-12-28T18:13:18.226Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": -58454404,
+      "centerLngE7": -352040713,
+      "visitConfidence": 89,
+      "otherCandidateLocations": [{
+        "latitudeE7": -58452529,
+        "longitudeE7": -352040404,
+        "placeId": "ChIJCaXVAXr_sgcR4mrj30eeulw",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 4.4189286
+      }, {
+        "latitudeE7": -58452454,
+        "longitudeE7": -352040521,
+        "placeId": "ChIJv65DAHr_sgcRYOw1tPZsukw",
+        "address": "Av. Miguel Alcídes de Araújo, 1837 - Capim Macio, Natal - RN, 59078-270, Brasil",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 3.06741
+      }, {
+        "latitudeE7": -58457500,
+        "longitudeE7": -352037640,
+        "placeId": "ChIJQ8sQqHD_sgcRaUT_C50nvwk",
+        "address": "R. Eng. Nelson Bahia, 1836 - Capim Macio, Natal - RN, 59078-280, Brasil",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 2.198024
+      }, {
+        "latitudeE7": -58457950,
+        "longitudeE7": -352045830,
+        "placeId": "ChIJR6wCEHr_sgcRj48RoyeOYD4",
+        "address": "Av. Miguel Alcídes de Araújo, 1849 - Capim Macio, Natal - RN, 59078-270, Brasil",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 1.3802047
+      }, {
+        "latitudeE7": -58445100,
+        "longitudeE7": -352034779,
+        "placeId": "ChIJQT4LXHf_sgcRQMP_eL_hz8M",
+        "address": "Av. Miguel Alcídes de Araújo, 1814 - Capim Macio, Natal - RN, 59078-270, Brasil",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.662719
+      }, {
+        "latitudeE7": -58455184,
+        "longitudeE7": -352042397,
+        "placeId": "ChIJYUdPG3v_sgcRqBOrP10NfzA",
+        "locationConfidence": 0.16925506
+      }, {
+        "latitudeE7": -58434260,
+        "longitudeE7": -352048400,
+        "placeId": "ChIJLTI4z3n_sgcRFQ7vQwMMoeI",
+        "address": "R. das Orquídeas, 766 - Capim Macio, Natal - RN, 59078-170, Brasil",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.12499423
+      }, {
+        "latitudeE7": -58452045,
+        "longitudeE7": -352062084,
+        "placeId": "ChIJSQKbKXr_sgcR8ACbF-WTiq0",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.11617529
+      }, {
+        "latitudeE7": -58464754,
+        "longitudeE7": -352074791,
+        "placeId": "ChIJYWc4unv_sgcRmEUO670c5AA",
+        "locationConfidence": 0.008837535
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 78,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+      },
+      "endLocation": {
+      },
+      "duration": {
+        "startTimestamp": "2014-12-28T18:24:48.608Z",
+        "endTimestamp": "2014-12-28T18:27:00.609Z"
+      },
+      "distance": 144,
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 0.0
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+      },
+      "endLocation": {
+      },
+      "duration": {
+        "startTimestamp": "2014-12-28T19:51:29.238Z",
+        "endTimestamp": "2014-12-28T19:54:30.951Z"
+      },
+      "distance": 94,
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 0.0
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+      },
+      "endLocation": {
+      },
+      "duration": {
+        "startTimestamp": "2014-12-28T20:10:15.015Z",
+        "endTimestamp": "2014-12-28T20:19:32.899Z"
+      },
+      "distance": 223,
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "FLYING",
+        "probability": 0.0
+      }, {
+        "activityType": "WALKING",
+        "probability": 0.0
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+      },
+      "endLocation": {
+      },
+      "duration": {
+        "startTimestamp": "2014-12-28T21:46:56.713Z",
+        "endTimestamp": "2014-12-28T21:50:31.296Z"
+      },
+      "distance": 96,
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 0.0
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+      },
+      "endLocation": {
+      },
+      "duration": {
+        "startTimestamp": "2014-12-28T21:55:30.099Z",
+        "endTimestamp": "2014-12-28T22:04:39.980Z"
+      },
+      "distance": 139,
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 0.0
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+      },
+      "endLocation": {
+      },
+      "duration": {
+        "startTimestamp": "2014-12-28T22:39:03.724Z",
+        "endTimestamp": "2014-12-28T22:42:46.259Z"
+      },
+      "distance": 98,
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "FLYING",
+        "probability": 0.0
+      }, {
+        "activityType": "WALKING",
+        "probability": 0.0
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": -58708414,
+        "longitudeE7": -351896817,
+        "placeId": "ChIJ7ewz_Db_sgcRzfZf7UlBXgQ",
+        "address": "R. Histo. Francisco Fausto de Souza, 373 - Capim Macio, Natal - RN, 59082-260, Brasil",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 89.66326
+      },
+      "duration": {
+        "startTimestamp": "2014-12-28T22:51:55.905Z",
+        "endTimestamp": "2014-12-28T23:30:05.095Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": -58704775,
+      "centerLngE7": -351893712,
+      "visitConfidence": 78,
+      "otherCandidateLocations": [{
+        "latitudeE7": -58707919,
+        "longitudeE7": -351887047,
+        "placeId": "ChIJfdpwTTf_sgcRpTnLYCGpWHk",
+        "address": "R. Renato Guilherme Kaiser, 70 - Ponta Negra, Natal - RN, 59082-352, Brasil",
+        "name": "Valencia Flat",
+        "locationConfidence": 1.9185537
+      }, {
+        "latitudeE7": -58706222,
+        "longitudeE7": -351892347,
+        "placeId": "ChIJ769pHzr_sgcRGXRqXTwEpDM",
+        "address": "R. Histo. Francisco Fausto de Souza, 284 - Capim Macio, Natal - RN, 59082-260, Brasil",
+        "name": "Rental Andaimes Locação de Equip para Construção",
+        "locationConfidence": 0.6933797
+      }, {
+        "latitudeE7": -58705758,
+        "longitudeE7": -351883211,
+        "placeId": "ChIJ595UJzf_sgcRJnl1V3j6EEg",
+        "address": "R. Renato Guilherme Kaiser, 27 - Capim Macio, Natal - RN, 59082-352, Brasil",
+        "name": "Maria Clara Residenc Flat",
+        "locationConfidence": 0.62791955
+      }, {
+        "latitudeE7": -58707919,
+        "longitudeE7": -351887047,
+        "placeId": "ChIJfdpwTTf_sgcRpTnLYCGpWHk",
+        "address": "R. Renato Guilherme Kaiser, 70 - Ponta Negra, Natal - RN, 59082-352, Brasil",
+        "name": "Valencia Flat",
+        "locationConfidence": 0.62334484
+      }, {
+        "latitudeE7": -58727946,
+        "longitudeE7": -351895568,
+        "placeId": "ChIJCdWfnDb_sgcRc48l_4x2Qog",
+        "address": "Av. Praia de Muriú, s/n - Ponta Negra, Natal - RN, 59094-390, Brasil",
+        "name": "State School José Fernandes Machado",
+        "locationConfidence": 0.607142
+      }, {
+        "latitudeE7": -58839754,
+        "longitudeE7": -352083856,
+        "placeId": "ChIJg-IJUDf_sgcR2FA4Nub0C-w",
+        "address": "Av. Me. Teresa de Calcutá, 10 - Res. Jardim do Sul, Parnamirim - RN, 59082-260, Brasil",
+        "name": "Veneza Conveniência",
+        "locationConfidence": 0.32130823
+      }, {
+        "latitudeE7": -58702533,
+        "longitudeE7": -351849535,
+        "placeId": "ChIJRZoRYMJVsgcRADGEdd-bADI",
+        "name": "Pizza Finicrok",
+        "locationConfidence": 0.32000488
+      }, {
+        "latitudeE7": -58713911,
+        "longitudeE7": -351889250,
+        "placeId": "ChIJIcYe_Tb_sgcRwUS7B3cBC8g",
+        "address": "Av. Praia de Genipabú, 90 - Ponta Negra, Natal - RN, 59082-353, Brasil",
+        "name": "Mercadinho A Fazendinha",
+        "locationConfidence": 0.3163984
+      }, {
+        "latitudeE7": -58712264,
+        "longitudeE7": -351899935,
+        "placeId": "ChIJ20BC7Tb_sgcRKyooPW_gdg4",
+        "address": "R. Histo. Francisco Fausto de Souza, 90 - Capim Macio, Natal - RN, 59082-354, Brasil",
+        "name": "Camelo Piscinas",
+        "locationConfidence": 0.2796196
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 80,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+      },
+      "endLocation": {
+      },
+      "duration": {
+        "startTimestamp": "2014-12-28T23:57:11.480Z",
+        "endTimestamp": "2014-12-28T23:58:11.857Z"
+      },
+      "distance": 3198,
+      "confidence": "UNKNOWN_CONFIDENCE",
+      "activities": [{
+        "activityType": "UNKNOWN_ACTIVITY_TYPE",
+        "probability": 0.0
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": -58454558,
+        "longitudeE7": -352041163,
+        "placeId": "ChIJm30eAXr_sgcR3c5JI6n5Zzg",
+        "address": "Av. Miguel Alcídes de Araújo, 1841 - Capim Macio, Natal - RN, 59078-270, Brasil",
+        "locationConfidence": 84.25217
+      },
+      "duration": {
+        "startTimestamp": "2014-12-29T00:03:30.599Z",
+        "endTimestamp": "2014-12-29T16:24:35.014Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": -58454071,
+      "centerLngE7": -352039974,
+      "visitConfidence": 91,
+      "otherCandidateLocations": [{
+        "latitudeE7": -58452529,
+        "longitudeE7": -352040404,
+        "placeId": "ChIJCaXVAXr_sgcR4mrj30eeulw",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 5.9381504
+      }, {
+        "latitudeE7": -58452454,
+        "longitudeE7": -352040521,
+        "placeId": "ChIJv65DAHr_sgcRYOw1tPZsukw",
+        "address": "Av. Miguel Alcídes de Araújo, 1837 - Capim Macio, Natal - RN, 59078-270, Brasil",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 4.05515
+      }, {
+        "latitudeE7": -58457500,
+        "longitudeE7": -352037640,
+        "placeId": "ChIJQ8sQqHD_sgcRaUT_C50nvwk",
+        "address": "R. Eng. Nelson Bahia, 1836 - Capim Macio, Natal - RN, 59078-280, Brasil",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 2.7633574
+      }, {
+        "latitudeE7": -58457950,
+        "longitudeE7": -352045830,
+        "placeId": "ChIJR6wCEHr_sgcRj48RoyeOYD4",
+        "address": "Av. Miguel Alcídes de Araújo, 1849 - Capim Macio, Natal - RN, 59078-270, Brasil",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 1.5359769
+      }, {
+        "latitudeE7": -58445100,
+        "longitudeE7": -352034779,
+        "placeId": "ChIJQT4LXHf_sgcRQMP_eL_hz8M",
+        "address": "Av. Miguel Alcídes de Araújo, 1814 - Capim Macio, Natal - RN, 59078-270, Brasil",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.92080253
+      }, {
+        "latitudeE7": -58455184,
+        "longitudeE7": -352042397,
+        "placeId": "ChIJYUdPG3v_sgcRqBOrP10NfzA",
+        "locationConfidence": 0.19438499
+      }, {
+        "latitudeE7": -58434260,
+        "longitudeE7": -352048400,
+        "placeId": "ChIJLTI4z3n_sgcRFQ7vQwMMoeI",
+        "address": "R. das Orquídeas, 766 - Capim Macio, Natal - RN, 59078-170, Brasil",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.15572864
+      }, {
+        "latitudeE7": -58452045,
+        "longitudeE7": -352062084,
+        "placeId": "ChIJSQKbKXr_sgcR8ACbF-WTiq0",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.12574668
+      }, {
+        "latitudeE7": -58436495,
+        "longitudeE7": -352036523,
+        "placeId": "ChIJOR4Menf_sgcRGGw6shgsCyE",
+        "address": "Av. das Tulípas, 169 - Capim Macio, Natal - RN, 59078-220, Brasil",
+        "name": "Bar do Thomas",
+        "locationConfidence": 0.013269357
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 75,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": -58454280,
+        "longitudeE7": -352040202
+      },
+      "endLocation": {
+        "latitudeE7": -58817951,
+        "longitudeE7": -351806167
+      },
+      "duration": {
+        "startTimestamp": "2014-12-29T18:42:17.921Z",
+        "endTimestamp": "2014-12-29T19:31:08.245Z"
+      },
+      "distance": 21103,
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }, {
+        "activityType": "FLYING",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": -58452897,
+          "lngE7": -352041435
+        }, {
+          "latE7": -58818998,
+          "lngE7": -351804618
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 6047.472533511502,
+        "travelMode": "DRIVE",
+        "confidence": 1.0
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+      },
+      "endLocation": {
+      },
+      "duration": {
+        "startTimestamp": "2014-12-29T19:31:08.245Z",
+        "endTimestamp": "2014-12-29T19:35:48.423Z"
+      },
+      "distance": 253,
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 0.0
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+      },
+      "endLocation": {
+      },
+      "duration": {
+        "startTimestamp": "2014-12-29T21:33:45.317Z",
+        "endTimestamp": "2014-12-29T21:42:45.378Z"
+      },
+      "distance": 340,
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "FLYING",
+        "probability": 0.0
+      }, {
+        "activityType": "WALKING",
+        "probability": 0.0
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": -60167220,
+        "longitudeE7": -351095813,
+        "placeId": "ChIJ2z8-ulzxsgcRH1L69-MfiCA",
+        "address": "5 - Avenida Coronel Paulo Salema, 2350 - Praia de Búzios, Nísia Floresta - Rio Grande do Norte, 59164-000, Brasil",
+        "name": "BigBlue Parque Aquático",
+        "locationConfidence": 96.74422
+      },
+      "duration": {
+        "startTimestamp": "2014-12-29T21:49:50.064Z",
+        "endTimestamp": "2014-12-30T18:33:57.983Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": -60177469,
+      "centerLngE7": -351099644,
+      "visitConfidence": 89,
+      "otherCandidateLocations": [{
+        "latitudeE7": -60184916,
+        "longitudeE7": -351099868,
+        "placeId": "ChIJJa2btFzxsgcR6iLXRS25YmA",
+        "address": "Av. Cel. Paulo Salema, 1800 - Praia de Buzios, Nísia Floresta - RN, 59164-000, Brasil",
+        "name": "Pousada Sol e Mar",
+        "locationConfidence": 3.063479
+      }, {
+        "latitudeE7": -60178080,
+        "longitudeE7": -351097270,
+        "placeId": "ChIJJeRnhVzxsgcR1wHPXg6glC0",
+        "address": "Rua Ozório Pinheiro, 101, Nísia Floresta - RN, 59164-000, Brazil",
+        "name": "Villa das Dunas Guesthouse",
+        "locationConfidence": 0.13547646
+      }, {
+        "latitudeE7": -60167220,
+        "longitudeE7": -351095813,
+        "placeId": "ChIJ2z8-ulzxsgcRH1L69-MfiCA",
+        "address": "Rota do Sol, Praia de Búzios - Av. Cel. Paulo Salema, 2350 - Praia de Búzios, Nísia Floresta - RN, 59164-000, Brasil",
+        "name": "BigBlue Parque Aquático",
+        "locationConfidence": 0.05250924
+      }, {
+        "latitudeE7": -60186152,
+        "longitudeE7": -351092590,
+        "placeId": "ChIJ7SgKiFvxsgcRIjAGFgZEOks",
+        "address": "RN-063, 900, Nísia Floresta - RN, 59164-000, Brasil",
+        "name": "BÚZIOS BEACH",
+        "locationConfidence": 0.0043201437
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 85,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+      },
+      "endLocation": {
+      },
+      "duration": {
+        "startTimestamp": "2014-12-30T19:05:05.910Z",
+        "endTimestamp": "2014-12-30T20:11:29.868Z"
+      },
+      "distance": 18539,
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }, {
+        "activityType": "FLYING",
+        "probability": 0.0
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": -58708414,
+        "longitudeE7": -351896817,
+        "placeId": "ChIJ7ewz_Db_sgcRzfZf7UlBXgQ",
+        "address": "R. Histo. Francisco Fausto de Souza, 373 - Capim Macio, Natal - RN, 59082-260, Brasil",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 96.95748
+      },
+      "duration": {
+        "startTimestamp": "2014-12-30T20:12:50.611Z",
+        "endTimestamp": "2014-12-31T00:31:13.974Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": -58705362,
+      "centerLngE7": -351894006,
+      "visitConfidence": 82,
+      "otherCandidateLocations": [{
+        "latitudeE7": -58707919,
+        "longitudeE7": -351887047,
+        "placeId": "ChIJfdpwTTf_sgcRpTnLYCGpWHk",
+        "address": "R. Renato Guilherme Kaiser, 70 - Ponta Negra, Natal - RN, 59082-352, Brasil",
+        "name": "Valencia Flat",
+        "locationConfidence": 0.59801763
+      }, {
+        "latitudeE7": -58707919,
+        "longitudeE7": -351887047,
+        "placeId": "ChIJfdpwTTf_sgcRpTnLYCGpWHk",
+        "address": "R. Renato Guilherme Kaiser, 70 - Ponta Negra, Natal - RN, 59082-352, Brasil",
+        "name": "Valencia Flat",
+        "locationConfidence": 0.33344126
+      }, {
+        "latitudeE7": -58705758,
+        "longitudeE7": -351883211,
+        "placeId": "ChIJ595UJzf_sgcRJnl1V3j6EEg",
+        "address": "R. Renato Guilherme Kaiser, 27 - Capim Macio, Natal - RN, 59082-352, Brasil",
+        "name": "Maria Clara Residenc Flat",
+        "locationConfidence": 0.23792183
+      }, {
+        "latitudeE7": -58706222,
+        "longitudeE7": -351892347,
+        "placeId": "ChIJ769pHzr_sgcRGXRqXTwEpDM",
+        "address": "R. Histo. Francisco Fausto de Souza, 284 - Capim Macio, Natal - RN, 59082-260, Brasil",
+        "name": "Rental Andaimes Locação de Equip para Construção",
+        "locationConfidence": 0.14828703
+      }, {
+        "latitudeE7": -58727946,
+        "longitudeE7": -351895568,
+        "placeId": "ChIJCdWfnDb_sgcRc48l_4x2Qog",
+        "address": "Av. Praia de Muriú, s/n - Ponta Negra, Natal - RN, 59094-390, Brasil",
+        "name": "State School José Fernandes Machado",
+        "locationConfidence": 0.14571883
+      }, {
+        "latitudeE7": -58727946,
+        "longitudeE7": -351895568,
+        "placeId": "ChIJCdWfnDb_sgcRc48l_4x2Qog",
+        "address": "Av. Praia de Muriú, s/n - Ponta Negra, Natal - RN, 59094-390, Brasil",
+        "name": "State School José Fernandes Machado",
+        "locationConfidence": 0.14540479
+      }, {
+        "latitudeE7": -58712264,
+        "longitudeE7": -351899935,
+        "placeId": "ChIJ20BC7Tb_sgcRKyooPW_gdg4",
+        "address": "R. Histo. Francisco Fausto de Souza, 90 - Capim Macio, Natal - RN, 59082-354, Brasil",
+        "name": "Camelo Piscinas",
+        "locationConfidence": 0.10742896
+      }, {
+        "latitudeE7": -58713911,
+        "longitudeE7": -351889250,
+        "placeId": "ChIJIcYe_Tb_sgcRwUS7B3cBC8g",
+        "address": "Av. Praia de Genipabú, 90 - Ponta Negra, Natal - RN, 59082-353, Brasil",
+        "name": "Mercadinho A Fazendinha",
+        "locationConfidence": 0.095426455
+      }, {
+        "latitudeE7": -58704870,
+        "longitudeE7": -351892620,
+        "placeId": "ChIJ7xT_HDf_sgcRQofpgKCBBXQ",
+        "name": "Oral Pet - Centro de Odontologia Veterinária",
+        "locationConfidence": 0.08717886
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 86,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+      },
+      "endLocation": {
+      },
+      "duration": {
+        "startTimestamp": "2014-12-31T00:54:24.015Z",
+        "endTimestamp": "2014-12-31T00:59:39.925Z"
+      },
+      "distance": 1179,
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "FLYING",
+        "probability": 0.0
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": -58551416,
+          "lngE7": -352089996
+        }, {
+          "latE7": -58452787,
+          "lngE7": -352041320
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 2095.4439669634294,
+        "travelMode": "DRIVE",
+        "confidence": 0.0
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": -58454558,
+        "longitudeE7": -352041163,
+        "placeId": "ChIJm30eAXr_sgcR3c5JI6n5Zzg",
+        "address": "Av. Miguel Alcídes de Araújo, 1841 - Capim Macio, Natal - RN, 59078-270, Brasil",
+        "locationConfidence": 85.713554
+      },
+      "duration": {
+        "startTimestamp": "2014-12-31T01:02:15.654Z",
+        "endTimestamp": "2014-12-31T16:55:23.867Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": -58454388,
+      "centerLngE7": -352039969,
+      "visitConfidence": 94,
+      "otherCandidateLocations": [{
+        "latitudeE7": -58452529,
+        "longitudeE7": -352040404,
+        "placeId": "ChIJCaXVAXr_sgcR4mrj30eeulw",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 5.167493
+      }, {
+        "latitudeE7": -58452454,
+        "longitudeE7": -352040521,
+        "placeId": "ChIJv65DAHr_sgcRYOw1tPZsukw",
+        "address": "Av. Miguel Alcídes de Araújo, 1837 - Capim Macio, Natal - RN, 59078-270, Brasil",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 3.544296
+      }, {
+        "latitudeE7": -58457500,
+        "longitudeE7": -352037640,
+        "placeId": "ChIJQ8sQqHD_sgcRaUT_C50nvwk",
+        "address": "R. Eng. Nelson Bahia, 1836 - Capim Macio, Natal - RN, 59078-280, Brasil",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 2.767438
+      }, {
+        "latitudeE7": -58457950,
+        "longitudeE7": -352045830,
+        "placeId": "ChIJR6wCEHr_sgcRj48RoyeOYD4",
+        "address": "Av. Miguel Alcídes de Araújo, 1849 - Capim Macio, Natal - RN, 59078-270, Brasil",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 1.4741764
+      }, {
+        "latitudeE7": -58445100,
+        "longitudeE7": -352034779,
+        "placeId": "ChIJQT4LXHf_sgcRQMP_eL_hz8M",
+        "address": "Av. Miguel Alcídes de Araújo, 1814 - Capim Macio, Natal - RN, 59078-270, Brasil",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.8256556
+      }, {
+        "latitudeE7": -58455184,
+        "longitudeE7": -352042397,
+        "placeId": "ChIJYUdPG3v_sgcRqBOrP10NfzA",
+        "locationConfidence": 0.18105209
+      }, {
+        "latitudeE7": -58434260,
+        "longitudeE7": -352048400,
+        "placeId": "ChIJLTI4z3n_sgcRFQ7vQwMMoeI",
+        "address": "R. das Orquídeas, 766 - Capim Macio, Natal - RN, 59078-170, Brasil",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.13800324
+      }, {
+        "latitudeE7": -58452045,
+        "longitudeE7": -352062084,
+        "placeId": "ChIJSQKbKXr_sgcR8ACbF-WTiq0",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.117171116
+      }, {
+        "latitudeE7": -58436495,
+        "longitudeE7": -352036523,
+        "placeId": "ChIJOR4Menf_sgcRGGw6shgsCyE",
+        "address": "Av. das Tulípas, 169 - Capim Macio, Natal - RN, 59078-220, Brasil",
+        "name": "Bar do Thomas",
+        "locationConfidence": 0.010206115
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 76,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+      },
+      "endLocation": {
+      },
+      "duration": {
+        "startTimestamp": "2014-12-31T18:09:15.508Z",
+        "endTimestamp": "2014-12-31T18:10:20.919Z"
+      },
+      "distance": 968,
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "FLYING",
+        "probability": 0.0
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": -58453273,
+          "lngE7": -352041893
+        }, {
+          "latE7": -58396859,
+          "lngE7": -352105865
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 1732.6994512407139,
+        "travelMode": "DRIVE",
+        "confidence": 1.0
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+      },
+      "endLocation": {
+      },
+      "duration": {
+        "startTimestamp": "2014-12-31T18:21:42.301Z",
+        "endTimestamp": "2014-12-31T18:22:48.087Z"
+      },
+      "distance": 963,
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }, {
+        "activityType": "FLYING",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": -58397445,
+          "lngE7": -352105712
+        }, {
+          "latE7": -58453383,
+          "lngE7": -352042007
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 1957.515926809851,
+        "travelMode": "DRIVE",
+        "confidence": 1.0
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": -58454558,
+        "longitudeE7": -352041163,
+        "placeId": "ChIJm30eAXr_sgcR3c5JI6n5Zzg",
+        "address": "Av. Miguel Alcídes de Araújo, 1841 - Capim Macio, Natal - RN, 59078-270, Brasil",
+        "locationConfidence": 82.65172
+      },
+      "duration": {
+        "startTimestamp": "2014-12-31T18:22:48.087Z",
+        "endTimestamp": "2014-12-31T23:57:42.699Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": -58454539,
+      "centerLngE7": -352040082,
+      "visitConfidence": 84,
+      "otherCandidateLocations": [{
+        "latitudeE7": -58452529,
+        "longitudeE7": -352040404,
+        "placeId": "ChIJCaXVAXr_sgcR4mrj30eeulw",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 6.1896963
+      }, {
+        "latitudeE7": -58452454,
+        "longitudeE7": -352040521,
+        "placeId": "ChIJv65DAHr_sgcRYOw1tPZsukw",
+        "address": "Av. Miguel Alcídes de Araújo, 1837 - Capim Macio, Natal - RN, 59078-270, Brasil",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 4.2535214
+      }, {
+        "latitudeE7": -58457500,
+        "longitudeE7": -352037640,
+        "placeId": "ChIJQ8sQqHD_sgcRaUT_C50nvwk",
+        "address": "R. Eng. Nelson Bahia, 1836 - Capim Macio, Natal - RN, 59078-280, Brasil",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 3.4756362
+      }, {
+        "latitudeE7": -58457950,
+        "longitudeE7": -352045830,
+        "placeId": "ChIJR6wCEHr_sgcRj48RoyeOYD4",
+        "address": "Av. Miguel Alcídes de Araújo, 1849 - Capim Macio, Natal - RN, 59078-270, Brasil",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 1.8725826
+      }, {
+        "latitudeE7": -58445100,
+        "longitudeE7": -352034779,
+        "placeId": "ChIJQT4LXHf_sgcRQMP_eL_hz8M",
+        "address": "Av. Miguel Alcídes de Araújo, 1814 - Capim Macio, Natal - RN, 59078-270, Brasil",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.99298894
+      }, {
+        "latitudeE7": -58455184,
+        "longitudeE7": -352042397,
+        "placeId": "ChIJYUdPG3v_sgcRqBOrP10NfzA",
+        "locationConfidence": 0.1731161
+      }, {
+        "latitudeE7": -58434260,
+        "longitudeE7": -352048400,
+        "placeId": "ChIJLTI4z3n_sgcRFQ7vQwMMoeI",
+        "address": "R. das Orquídeas, 766 - Capim Macio, Natal - RN, 59078-170, Brasil",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.16816314
+      }, {
+        "latitudeE7": -58452045,
+        "longitudeE7": -352062084,
+        "placeId": "ChIJSQKbKXr_sgcR8ACbF-WTiq0",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.14818338
+      }, {
+        "latitudeE7": -58436495,
+        "longitudeE7": -352036523,
+        "placeId": "ChIJOR4Menf_sgcRGGw6shgsCyE",
+        "address": "Av. das Tulípas, 169 - Capim Macio, Natal - RN, 59078-220, Brasil",
+        "name": "Bar do Thomas",
+        "locationConfidence": 0.013133815
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 74,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": -58454558,
+        "longitudeE7": -352041163,
+        "placeId": "ChIJm30eAXr_sgcR3c5JI6n5Zzg",
+        "address": "Av. Miguel Alcídes de Araújo, 1841 - Capim Macio, Natal - RN, 59078-270, Brasil",
+        "locationConfidence": 82.65172
+      },
+      "endLocation": {
+        "latitudeE7": -58560807,
+        "longitudeE7": -352040996,
+        "placeId": "ChIJozXAK2b_sgcRXWvHPHpwDdM",
+        "address": "Avenida dos Ipês, 1891 - Neópolis, Natal - Rio Grande do Norte, 59080-115, Brasil",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 78.190216
+      },
+      "duration": {
+        "startTimestamp": "2014-12-31T23:57:42.699Z",
+        "endTimestamp": "2014-12-31T23:58:59.544Z"
+      },
+      "distance": 1237,
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }, {
+        "activityType": "FLYING",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": -58453226,
+          "lngE7": -352041816
+        }, {
+          "latE7": -58563666,
+          "lngE7": -352038383
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 2055.306755261551,
+        "travelMode": "DRIVE",
+        "confidence": 1.0
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": -58560807,
+        "longitudeE7": -352040996,
+        "placeId": "ChIJozXAK2b_sgcRXWvHPHpwDdM",
+        "address": "Avenida dos Ipês, 1891 - Neópolis, Natal - Rio Grande do Norte, 59080-115, Brasil",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 78.190216
+      },
+      "duration": {
+        "startTimestamp": "2014-12-31T23:58:59.544Z",
+        "endTimestamp": "2015-01-01T05:48:32.052Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "centerLatE7": -58565804,
+      "centerLngE7": -352039924,
+      "visitConfidence": 85,
+      "otherCandidateLocations": [{
+        "latitudeE7": -58573440,
+        "longitudeE7": -352040120,
+        "placeId": "ChIJowiV32f_sgcR6w6V814Y6G4",
+        "address": "R. Aldo de Melo Freire, 1909 - Capim Macio, Natal - RN, 59082-030, Brasil",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 19.22217
+      }, {
+        "latitudeE7": -57548206,
+        "longitudeE7": -352395681,
+        "placeId": "ChIJPRtQSWb_sgcR0gY8C6eNS4I",
+        "address": "Av. Dr. João Medeiros Filho, 3419 - Potengi, Natal - RN, 59122-365, Brasil",
+        "name": "UERN - Universidade do Estado do Rio Grande do Norte, Campus Avançado de Natal",
+        "locationConfidence": 0.6233979
+      }, {
+        "latitudeE7": -58561544,
+        "longitudeE7": -352040094,
+        "placeId": "ChIJ0RBUKmb_sgcRYboECBypwz4",
+        "address": "R. Dr. Pedro Segundo de Araújo - Capim Macio, Natal - RN, 59082-040, Brasil",
+        "name": "Flauber´s Hall",
+        "locationConfidence": 0.5434857
+      }, {
+        "latitudeE7": -58551538,
+        "longitudeE7": -352026263,
+        "placeId": "ChIJNbjCvmj_sgcRKXt32uiodkw",
+        "address": "R. Pastor Gabino Brelaz, 1470 - Capim Macio, Natal - RN, 59082-010, Brasil",
+        "name": "Escola Francesa de Natal",
+        "locationConfidence": 0.27001616
+      }, {
+        "latitudeE7": -55739072,
+        "longitudeE7": -369090960,
+        "placeId": "ChIJ0WZh31TysAcRBdPxXkAd5-g",
+        "address": "Rua Sinhazinha Wanderley, 871 - Centro, Açu - RN, 59650-000, Brasil",
+        "name": "UERN - Campus Avançado de Açu",
+        "locationConfidence": 0.22439818
+      }, {
+        "latitudeE7": -58570891,
+        "longitudeE7": -352055928,
+        "placeId": "ChIJqZ3VkJP4sgcRZYsiwjiITq0",
+        "address": "Av. Ayrton Senna, 761 - Capim Macio, Natal - RN, 59080-101, Brasil",
+        "name": "Colégio Master",
+        "locationConfidence": 0.10910988
+      }, {
+        "latitudeE7": -58557828,
+        "longitudeE7": -352055355,
+        "placeId": "ChIJmwQVSWb_sgcROZj--CRIsVI",
+        "address": "Capim Macio, Natal - RN, 59151-610, Brasil",
+        "name": "Department of Law",
+        "locationConfidence": 0.088279635
+      }, {
+        "latitudeE7": -58557828,
+        "longitudeE7": -352055355,
+        "placeId": "ChIJL2PfSGb_sgcRmxu7grk_ryU",
+        "address": "Capim Macio, Natal - RN, 59151-610, Brasil",
+        "name": "Departamento de Ciência da Computação",
+        "locationConfidence": 0.088279635
+      }, {
+        "latitudeE7": -58557828,
+        "longitudeE7": -352055355,
+        "placeId": "ChIJC3M4SWb_sgcRIfD54iQcX-U",
+        "address": "Av. dos Ipês, 2269 - Neópolis, Natal - RN, 59080-115, Brasil",
+        "name": "Departamento de Ciência da Religião",
+        "locationConfidence": 0.08807684
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 70,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }]
+}

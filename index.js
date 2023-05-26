@@ -14,12 +14,15 @@ function restart() {
 }
 
 fileInput.addEventListener("click", () => restart);
+
+
 // This function is responsible for reading the selected file
 function handleFileSelection(event) {
     // Once a file has been uploaded (fileInput changed), the download button can the enabled
     download.disabled = false;
     
     // This for loop will consider multiple files being uploaded
+    let j = 0;
     for (let i=0; i<fileInput.files.length; i++)
     {
   // Selecting the first file uploaded
@@ -27,14 +30,17 @@ function handleFileSelection(event) {
 
   //The FileReader object in JavaScript provides a way to read the contents of files asynchronously.
   const reader = new FileReader();
-
   // This anonymous function will be executed once the reader.readAsText finishes reading the selectedFile
   reader.onload = function (event) {
     const fileContents = event.target.result;
     transform(fileContents);
+    j++
+console.log(j+'/'+fileInput.files.length)
+
   };
 
   reader.readAsText(selectedFile);
+
 }}
 
 // Defining result as a global variable so that it is available for multiple functions to access
@@ -105,26 +111,26 @@ function transform(str) {
       );
     }
 
+console.log(together.length)
+// console.log('aehoo')
+
   // Joining all rows with a return after every row
   result = together.join("\n");
+
 
   //Printing the together on the webpage with a HTML break row joining the rows
   document.querySelector("#result").innerHTML = together.join("<br>");
 }
 
+
 function downloadCSV(data, filename) {
-  const csvContent = "data:text/csv;charset=utf-8," + data;
-
-  const encodedUri = encodeURI(csvContent);
-  const link = document.createElement("a");
-  link.setAttribute("href", encodedUri);
+  const csvContent = "data:text/csv;charset=utf-8," + encodeURIComponent(data);
+  
+  const link = document.querySelector("a");
+  link.setAttribute("href", csvContent);
   link.setAttribute("download", filename);
-
-  document.body.appendChild(link);
-  link.click();
-  document.body.removeChild(link);
 }
 
 //assigning the download function to the download button
 const downloadButton = document.querySelector("#download");
-downloadButton.addEventListener("click", () => downloadCSV(result, "data.csv"));
+downloadButton.addEventListener("click", () => downloadCSV(result, encodeURI(result).length+".csv"));
